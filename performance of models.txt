@@ -1,0 +1,100 @@
+XGBClassifier
+
+          precision    recall  f1-score   support
+
+           0       0.91      0.86      0.89      8377
+           1       0.90      0.94      0.92     11357
+
+    accuracy                           0.91     19734
+   macro avg       0.91      0.90      0.90     19734
+weighted avg       0.91      0.91      0.91     19734
+
+[[ 7211  1166]
+ [  680 10677]]
+0.9064558629776021
+
+
+
+
+RandomForestClassifier
+
+               precision    recall  f1-score   support
+
+           0       0.90      0.86      0.88      8310
+           1       0.90      0.93      0.91     11424
+
+    accuracy                           0.90     19734
+   macro avg       0.90      0.89      0.90     19734
+weighted avg       0.90      0.90      0.90     19734
+
+[[ 7159  1151]
+ [  806 10618]]
+0.900831053004966
+
+
+
+DecisionTreeClassifier
+
+precision    recall  f1-score   support
+
+           0       0.84      0.85      0.85      8310
+           1       0.89      0.88      0.89     11424
+
+    accuracy                           0.87     19734
+   macro avg       0.87      0.87      0.87     19734
+weighted avg       0.87      0.87      0.87     19734
+
+
+
+
+KNNClassifier
+
+                 precision    recall  f1-score   support
+
+           0       0.77      0.70      0.73      8310
+           1       0.79      0.85      0.82     11424
+
+    accuracy                           0.79     19734
+   macro avg       0.78      0.77      0.78     19734
+weighted avg       0.78      0.79      0.78     19734
+
+
+
+NaiveBayes
+
+               precision    recall  f1-score   support
+
+           0       0.89      0.54      0.67      8310
+           1       0.74      0.95      0.83     11424
+
+    accuracy                           0.78     19734
+   macro avg       0.81      0.75      0.75     19734
+weighted avg       0.80      0.78      0.77     19734
+
+
+
+AdaBoostClassifier
+
+                precision    recall  f1-score   support
+
+           0       0.84      0.77      0.80      8310
+           1       0.84      0.89      0.87     11424
+
+    accuracy                           0.84     19734
+   macro avg       0.84      0.83      0.83     19734
+weighted avg       0.84      0.84      0.84     19734
+
+
+
+
+GradientBoostingClassifier
+
+                precision    recall  f1-score   support
+
+           0       0.89      0.79      0.84      8310
+           1       0.86      0.93      0.89     11424
+
+    accuracy                           0.87     19734
+   macro avg       0.87      0.86      0.86     19734
+weighted avg       0.87      0.87      0.87     19734
+
